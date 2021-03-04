@@ -56,10 +56,6 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
-            },
             "PexelsDotNetSDK": {
               "target": "Package",
               "version": "[1.0.5, )"
