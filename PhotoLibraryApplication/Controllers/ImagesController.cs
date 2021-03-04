@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using PhotoLibraryApplication.Models;
 using PexelsDotNetSDK.Api;
-using PhotoLibraryApplication.helpers;
 
 namespace PhotoLibraryApplication.Controllers
 {
@@ -14,8 +12,6 @@ namespace PhotoLibraryApplication.Controllers
     [Route("[controller]")]
     public class ImagesController : ControllerBase
     {
-        private readonly AzureVaultHelper _azureVaultHelper = new("https://schoolapplicationkeys.vault.azure.net/");
-        private string _pexelsApiKey;
         private PexelsClient _pexelsClient;
         
         private static IConfiguration _configuration;
