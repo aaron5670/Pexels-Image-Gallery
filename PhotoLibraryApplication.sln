@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibraryApplication", "PhotoLibraryApplication\PhotoLibraryApplication.csproj", "{A3296229-0DEB-4E4B-9280-D7AB747FB131}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibraryAPI", "PhotoLibraryAPI\PhotoLibraryAPI.csproj", "{A3296229-0DEB-4E4B-9280-D7AB747FB131}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibraryApp", "PhotoLibraryApp\PhotoLibraryApp.csproj", "{3264A827-9271-4A22-B7D8-F496F32FB3E6}"
 EndProject

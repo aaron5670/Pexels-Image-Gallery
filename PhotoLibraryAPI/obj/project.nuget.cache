@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zwf2rDUU+3SSgBgblb/Po9V0CIIhTZzP2Kfk8e8t7r96QooDY28AsIhkrgwsmIHNCYwohl0Tg9II9bSRAPFDwQ==",
+  "dgSpecHash": "v6JKcfzr1mKadgmQJvhWhSuRT2tQg9e7roVlAq3CmJnjdcx2Ey9DLyz8FD9fGO9TwjwaduB/PFJz+KNf+S4Ytw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryApplication\\PhotoLibraryApplication.csproj",
+  "projectFilePath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryAPI\\PhotoLibraryAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaron\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

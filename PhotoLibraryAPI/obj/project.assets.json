@@ -808,11 +808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryApplication\\PhotoLibraryApplication.csproj",
-      "projectName": "PhotoLibraryApplication",
-      "projectPath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryApplication\\PhotoLibraryApplication.csproj",
+      "projectUniqueName": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryAPI\\PhotoLibraryAPI.csproj",
+      "projectName": "PhotoLibraryAPI",
+      "projectPath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryAPI\\PhotoLibraryAPI.csproj",
       "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryApplication\\obj\\",
+      "outputPath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet"
