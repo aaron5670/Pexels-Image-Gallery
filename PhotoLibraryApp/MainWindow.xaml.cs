@@ -15,8 +15,7 @@ namespace PhotoLibraryApp
         private async void ImageViewControl_Loaded(object sender, RoutedEventArgs e)
         {
             var imageViewModelObject = new ViewModel.ImageViewModel();
-            await imageViewModelObject.LoadImages();
-
+            await imageViewModelObject.LoadInitialImages();
             ImageViewControl.DataContext = imageViewModelObject;
         }
     }

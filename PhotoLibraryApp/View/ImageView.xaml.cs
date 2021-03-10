@@ -1,9 +1,8 @@
-﻿using System.Windows.Controls;
-using PhotoLibraryApp.Helpers;
+﻿using PhotoLibraryApp.Helpers;
 
 namespace PhotoLibraryApp.View
 {
-    public partial class ImageView : UserControl
+    public partial class ImageView
     {
         public ImageView()
         {
