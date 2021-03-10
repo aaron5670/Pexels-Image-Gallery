@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -35,7 +36,7 @@ namespace PhotoLibraryApplication.Controllers
                 return result.photos.Select(photo => new Image
                     {
                         Id = photo.id,
-                        Url = photo.source.original,
+                        Url = photo.source.tiny,
                         Width = photo.width,
                         Height = photo.height,
                         Photographer = photo.photographer
