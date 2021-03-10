@@ -34,6 +34,7 @@ namespace PhotoLibraryApp.Service
             if (!response.IsSuccessStatusCode) throw new Exception(response.ReasonPhrase);
 
             var data = await response.Content.ReadAsStringAsync();
+            
             return JsonConvert.DeserializeObject<List<Image>>(data);
         }
 

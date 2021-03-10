@@ -13,31 +13,62 @@ namespace PhotoLibraryApp.Model
         public string Id
         {
             get => _id;
-            set => _id = value;
+
+            set
+            {
+                if (_id == value) return;
+                _id = value;
+                RaisePropertyChanged("Id");
+                // RaisePropertyChanged("FullName");
+            }
         }
 
         public string Url
         {
             get => _url;
-            set => _url = value;
+            set
+            {
+                if (_url == value) return;
+                _url = value;
+                RaisePropertyChanged("Url");
+                // RaisePropertyChanged("FullName");
+            }
         }
 
         public string Photographer
         {
             get => _photographer;
-            set => _photographer = value;
+            set
+            {
+                if (_photographer == value) return;
+                _photographer = value;
+                RaisePropertyChanged("Photographer");
+                // RaisePropertyChanged("FullName");
+            }
         }
 
         public string Width
         {
             get => _width;
-            set => _width = value;
+            set
+            {
+                if (_width == value) return;
+                _width = value;
+                RaisePropertyChanged("Width");
+                // RaisePropertyChanged("FullName");
+            }
         }
 
         public string Height
         {
             get => _height;
-            set => _height = value;
+            set
+            {
+                if (_height == value) return;
+                _height = value;
+                RaisePropertyChanged("Height");
+                // RaisePropertyChanged("FullName");
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

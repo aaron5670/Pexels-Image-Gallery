@@ -12,12 +12,12 @@ namespace PhotoLibraryApp
             InitializeComponent();
         }
 
-        private void StudentViewControl_Loaded(object sender, RoutedEventArgs e)
+        private async void ImageViewControl_Loaded(object sender, RoutedEventArgs e)
         {
-            var studentViewModelObject = new ViewModel.StudentViewModel();
-            studentViewModelObject.LoadStudents();
+            var imageViewModelObject = new ViewModel.ImageViewModel();
+            await imageViewModelObject.LoadImages();
 
-            StudentViewControl.DataContext = studentViewModelObject;
+            ImageViewControl.DataContext = imageViewModelObject;
         }
     }
 }

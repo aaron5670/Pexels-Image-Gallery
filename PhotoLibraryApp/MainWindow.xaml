@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:PhotoLibraryApp"
         xmlns:view="clr-namespace:PhotoLibraryApp.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="750" Width="875">
     <Grid>
-        <view:StudentView x:Name = "StudentViewControl" Loaded = "StudentViewControl_Loaded"/>
+        <view:ImageView x:Name="ImageViewControl" Loaded="ImageViewControl_Loaded" />
     </Grid>
 </Window>
