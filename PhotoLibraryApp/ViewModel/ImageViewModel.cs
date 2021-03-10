@@ -21,8 +21,6 @@ namespace PhotoLibraryApp.ViewModel
             {
                 images.Add(image);
             }
-
-            Console.WriteLine("Fetched!");
             
             Images = images;
         }
@@ -37,8 +35,6 @@ namespace PhotoLibraryApp.ViewModel
             {
                 Images.Add(image);
             }
-
-            Console.WriteLine("Search fetched!");
         }
 
         public string SearchImages
@@ -47,7 +43,6 @@ namespace PhotoLibraryApp.ViewModel
             set
             {
                 if (_searchString == value) return;
-                Console.WriteLine(value);
                 FindSearchedImages(value);
             }
         }

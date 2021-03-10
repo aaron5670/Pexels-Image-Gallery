@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "v6JKcfzr1mKadgmQJvhWhSuRT2tQg9e7roVlAq3CmJnjdcx2Ey9DLyz8FD9fGO9TwjwaduB/PFJz+KNf+S4Ytw==",
+  "dgSpecHash": "oW+IrPG1UkpoYZfWe7Z8vhN4mrT6A7NFbmDb5suORGM4pb52QrHSmlKxdlY68R4EI1RcCEMB4Y50RQ4XBc2JMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryAPI\\PhotoLibraryAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaron\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
-    "C:\\Users\\aaron\\.nuget\\packages\\azure.security.keyvault.keys\\4.1.0\\azure.security.keyvault.keys.4.1.0.nupkg.sha512",
-    "C:\\Users\\aaron\\.nuget\\packages\\azure.security.keyvault.secrets\\4.1.0\\azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.identity.client\\4.22.0\\microsoft.identity.client.4.22.0.nupkg.sha512",

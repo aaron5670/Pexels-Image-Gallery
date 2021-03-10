@@ -12,7 +12,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:PhotoLibraryApp.View"
     mc:Ignorable="d"
     d:DesignHeight="300" d:DesignWidth="300">
 
@@ -32,16 +31,11 @@
             <Grid>
                 <TextBlock HorizontalAlignment="Center" Padding="0 10 0 0" FontWeight="Bold">Pexels Image Library</TextBlock>
                 
-                <TextBox x:Name="SearchCommand" Width="240" VerticalAlignment="Center" Margin="2" Text="{Binding SearchImages, Mode=OneWayToSource, UpdateSourceTrigger=Default}">
+                <TextBox x:Name="SearchCommand" Width="240" VerticalAlignment="Center" Margin="2" Text="{Binding SearchImages, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}">
                     <TextBox.InputBindings>
                         <KeyBinding Key="Enter" Command="{Binding Path=SearchImages}"></KeyBinding>
                     </TextBox.InputBindings>
                 </TextBox>
-
-                <Button Content="Search"
-                        Command="{Binding SearchImages}"
-                        VerticalAlignment="Bottom" HorizontalAlignment="Center"
-                        Width="75" />
 
             </Grid>
         </materialDesign:Card>
