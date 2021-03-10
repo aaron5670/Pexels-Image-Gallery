@@ -10,4 +10,6 @@ It features a WPF client and .NET Core server application.
 
 ### Continuous integration
 When pushing to the Master branch, a new GitHub Actions pipeline will start.
-This pipeline will push the new server features to Microsoft Azure.
+This pipeline will deploy the new server features to Microsoft Azure App Services.
+
+**Azure App Service production URL:** https://photo-library.azurewebsites.net/test
