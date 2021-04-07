@@ -1,17 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "iMBedIRybP7mUy+4qTaS40iY7u8SZ1l7EiuXRJkeYhHAMwjPB8IkPgFC8R3KUMJHQi9okqRclJzcLYyGUXBTEA==",
+  "dgSpecHash": "rZfnc5daJ56gNnb+psYIPy6J6OaYzH3l1qMhZx2ap/wFvxtbz6Peg8fBr1736S/WUzy+yf49nvAaLwJh4PvfEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aaron\\RiderProjects\\PhotoLibraryApplication\\PhotoLibraryApp\\PhotoLibraryApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aaron\\.nuget\\packages\\controlzex\\4.3.0\\controlzex.4.3.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\mahapps.metro\\2.0.0\\mahapps.metro.2.0.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\materialdesignthemes\\4.0.0\\materialdesignthemes.4.0.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\materialdesignthemes.mahapps\\0.1.6\\materialdesignthemes.mahapps.0.1.6.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\materialdesignthemes.wpf\\1.0.1\\materialdesignthemes.wpf.1.0.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
@@ -78,6 +82,7 @@
     "C:\\Users\\aaron\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
@@ -86,16 +91,5 @@
     "C:\\Users\\aaron\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MaterialDesignThemes.Wpf 1.0.1 depends on MaterialDesignColors (>= 1.0.1) but MaterialDesignColors 1.0.1 was not found. An approximate best match of MaterialDesignColors 1.1.0 was resolved.",
-      "libraryId": "MaterialDesignColors",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
