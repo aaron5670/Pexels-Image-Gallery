@@ -23,7 +23,7 @@ namespace PhotoLibraryApp.Service
 
         public async Task<List<Image>> SearchImages(string searchString)
         {
-            string url = $"https://photo-library.azurewebsites.net/images?search={searchString}";
+            var url = $"https://photo-library.azurewebsites.net/images?search={searchString}";
             using var response = await ApiHelper.ApiClient.GetAsync(url);
 
             if (!response.IsSuccessStatusCode) throw new Exception(response.ReasonPhrase);

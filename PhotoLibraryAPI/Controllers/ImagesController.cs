@@ -49,12 +49,12 @@ namespace PhotoLibraryApplication.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public async Task<Image> Get(int id)
+        [HttpGet("{searchString}")]
+        public async Task<Image> Get(int searchString)
         {
             if (_pexelsClient == null) InitPexelsClient();
 
-            var result = await _pexelsClient.GetPhotoAsync(id);
+            var result = await _pexelsClient.GetPhotoAsync(searchString);
             return new Image
             {
                 Id = result.id,

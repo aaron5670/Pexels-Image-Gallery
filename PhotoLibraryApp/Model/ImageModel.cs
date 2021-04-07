@@ -19,7 +19,6 @@ namespace PhotoLibraryApp.Model
                 if (_id == value) return;
                 _id = value;
                 RaisePropertyChanged("Id");
-                // RaisePropertyChanged("FullName");
             }
         }
 
@@ -31,7 +30,6 @@ namespace PhotoLibraryApp.Model
                 if (_url == value) return;
                 _url = value;
                 RaisePropertyChanged("Url");
-                // RaisePropertyChanged("FullName");
             }
         }
 
@@ -43,7 +41,6 @@ namespace PhotoLibraryApp.Model
                 if (_photographer == value) return;
                 _photographer = value;
                 RaisePropertyChanged("Photographer");
-                // RaisePropertyChanged("FullName");
             }
         }
 
@@ -55,7 +52,6 @@ namespace PhotoLibraryApp.Model
                 if (_width == value) return;
                 _width = value;
                 RaisePropertyChanged("Width");
-                // RaisePropertyChanged("FullName");
             }
         }
 
@@ -67,7 +63,6 @@ namespace PhotoLibraryApp.Model
                 if (_height == value) return;
                 _height = value;
                 RaisePropertyChanged("Height");
-                // RaisePropertyChanged("FullName");
             }
         }
 
