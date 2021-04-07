@@ -27,3 +27,8 @@ C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\obj\Debug\n
 C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\obj\Debug\netcoreapp3.1-windows\PhotoLibraryApp.dll
 C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\obj\Debug\netcoreapp3.1-windows\PhotoLibraryApp.pdb
 C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\obj\Debug\netcoreapp3.1-windows\PhotoLibraryApp.genruntimeconfig.cache
+C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\bin\Debug\netcoreapp3.1-windows\ControlzEx.dll
+C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\bin\Debug\netcoreapp3.1-windows\MahApps.Metro.dll
+C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\bin\Debug\netcoreapp3.1-windows\MaterialDesignThemes.MahApps.dll
+C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\bin\Debug\netcoreapp3.1-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\aaron\RiderProjects\PhotoLibraryApplication\PhotoLibraryApp\bin\Debug\netcoreapp3.1-windows\System.Text.Json.dll
