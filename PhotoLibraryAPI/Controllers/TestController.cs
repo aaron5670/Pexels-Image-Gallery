@@ -12,15 +12,17 @@ namespace PhotoLibraryApplication.Controllers
         [Produces("application/json")]
         public List<Image> Get()
         {
-            var images = new List<Image>();
-            images.Add(new()
+            var images = new List<Image>
             {
-                Id = 1,
-                Url = "https://miro.medium.com/max/750/1*zc1BKfAHkpvrZlHPbUvuYA.png",
-                Width = 750,
-                Height = 280,
-                Photographer = "Microsoft"
-            });
+                new()
+                {
+                    Id = 1,
+                    Url = "https://miro.medium.com/max/750/1*zc1BKfAHkpvrZlHPbUvuYA.png",
+                    Width = 750,
+                    Height = 280,
+                    Photographer = "Aaron van den Berg"
+                }
+            };
 
             return images;
         }
